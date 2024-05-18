@@ -1,0 +1,71 @@
+http://localhost:8089/members
+/members
+{
+    "firstName": "Shyanil",
+    "lastName": "Mishra",
+    "email": "shyanilmishra94@gmail.com",
+    "phone": "123-456-7890",
+    "membershipType": "Premium"
+}
+
+{
+    "firstName": "Dibyendu",
+    "lastName": "Mishra",
+    "email": "dibyendu@gmail.com",
+    "phone": "123-456-7890",
+    "membershipType": "Gold"
+}
+
+
+http://localhost:8089/facilities    
+                            /SHYANIL TEST DATA
+
+{
+    "name": "Swimming Pool",
+    "type": "Recreation",
+    "available": true
+}
+
+
+{
+    "name": "Gym",
+    "type": "Fitness",
+    "available": false
+}
+
+http://localhost:8089/bookings
+{
+   "id": 1,
+   "member": {
+       "id": 1,
+       "name": "John Doe",
+       "email": "john.doe@example.com",
+       "phoneNumber": "1234567890"
+   },
+   "facility": {
+       "id": 1,
+       "name": "Gym",
+       "description": "Fitness center with modern equipment"
+   },
+   "bookingTime": "2024-05-18T16:11:00"
+}
+
+
+{
+
+  "member": {
+    "id": 8,
+    "firstName": "Dibyendu",
+    "lastName": "Mishra",
+    "email": "dibyendu@gmail.com",
+    "phone": "123-456-7890",
+    "membershipType": "Premium"
+  },
+  "facility": {
+    "id": 2,
+    "name": "Swimming Pool",
+    "type": "Recreation",
+    "available": "true"
+  },
+  "bookingTime": "2024-05-18T10:00:00"
+}
