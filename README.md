@@ -40,4 +40,3 @@ To run this project, you need to have Java and MySQL installed on your machine. 
 
 ---
 
-Feel free to customize this README to suit your project's specific details and requirements.
